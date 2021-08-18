@@ -1,0 +1,39 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #EFEEEE;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+height: 100%;
+width: 100%;
+letter-spacing: 2px;
+}
+
+.title-team{
+font-family: 'Baskerville';
+font-size: 5rem;
+color: rgb(11, 123, 151);
+}
+
+.header{
+width: 100%;
+font-family: 'Baskerville';
+text-align: center;
+padding: 7%;
+background-color: rgb(25, 155, 206);
+color: #EFEEEE;
+margin-bottom: 30px;
+clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.card-header{
+font-family: 'Baskerville';
+background-color: #EFEEEE;
+border-bottom: 1px solid rgba(206, 189, 189, 0.685);
+}
+.footer{
+width: 100%;
+padding: 7%;
+}
