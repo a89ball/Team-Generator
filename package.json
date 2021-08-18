@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": ""
+    "test": "jest my-test --notify --config=config.json"
   },
   "repository": {
     "type": "git",
