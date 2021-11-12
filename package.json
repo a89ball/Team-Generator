@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest my-test --notify --config=config.json"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   "dependencies": {
     "i": "^0.3.6",
     "inquirer": "^8.2.0",
-    "jest": "^27.0.6",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
   }
 }
